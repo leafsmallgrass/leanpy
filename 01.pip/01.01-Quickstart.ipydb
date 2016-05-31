@@ -1,0 +1,30 @@
+01. 安装pip包
+02. 配置pip的环境变量
+03. 验证pip安装完成
+D:\learnpy>pip
+
+Usage:
+  pip <command> [options]
+04. 安装包 pip install SomePackage
+  [...]
+  Successfully installed SomePackage
+05. 查看安装包版本信息 pip show --files SomePackage
+Name: SomePackage
+  Version: 1.0
+  Location: /my/env/lib/pythonx.x/site-packages
+  Files:
+   ../somepackage/__init__.py
+   [...]
+06. 查看所有安装包pip list --outdated
+D:\learnpy>pip list --outdated
+attrs (15.2.0) - Latest: 16.0.0 [wheel]
+Django (1.8.2) - Latest: 1.9.6 [wheel]
+Flask (0.10.1) - Latest: 0.11 [wheel]
+MySQL-python (1.2.3) - Latest: 1.2.5 [sdist]
+pyparsing (2.1.1) - Latest: 2.1.4 [wheel]
+scipy (0.17.0) - Latest: 0.17.1 [sdist]
+selenium (2.53.1) - Latest: 2.53.2 [wheel]
+setuptools (20.8.1) - Latest: 21.2.2 [wheel]
+Werkzeug (0.11.9) - Latest: 0.11.10 [wheel]
+07. 更新安装包 pip install --upgrade SomePackage
+08. 卸载安装包 pip uninstall SomePackage
