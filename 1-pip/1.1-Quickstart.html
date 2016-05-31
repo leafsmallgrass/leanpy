@@ -1,0 +1,23 @@
+1. python安装pip
+2. 配置pip的环境变量
+3. 安装包 pip install SomePackage（安装包名称）
+D:\learnpy>pip install django
+Requirement already satisfied (use --upgrade to upgrade): django in d:\python2.7.11\lib\site-packages
+4. 显示安装包信息 pip show --files SomePackage（安装包名称）
+...
+Entry-points:
+  [console_scripts]
+  django-admin = django.core.management:execute_from_command_line
+5. 显示安装包及版本 pip list --outdated
+D:\learnpy>pip list --outdated
+attrs (15.2.0) - Latest: 16.0.0 [wheel]
+Django (1.8.2) - Latest: 1.9.6 [wheel]
+Flask (0.10.1) - Latest: 0.11 [wheel]
+MySQL-python (1.2.3) - Latest: 1.2.5 [sdist]
+pyparsing (2.1.1) - Latest: 2.1.4 [wheel]
+scipy (0.17.0) - Latest: 0.17.1 [sdist]
+selenium (2.53.1) - Latest: 2.53.2 [wheel]
+setuptools (20.8.1) - Latest: 21.2.2 [wheel]
+Werkzeug (0.11.9) - Latest: 0.11.10 [wheel]
+6. 更新安装包 pip install --upgrade SomePackage（安装包名称）
+7. 卸载安装包 pip uninstall SomePackage（安装包名称）
